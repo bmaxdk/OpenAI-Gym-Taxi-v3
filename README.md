@@ -6,10 +6,10 @@ The skeleton of this code is from [Udacity](https://github.com/udacity/deep-rein
 The environment is from [here](https://gym.openai.com/envs/Taxi-v3/).
 
 To do the simple demo, on Linux or Mac with Docker installed, make `taxi.sh` executable and run it:
-```
-git clone https://github.com/bmaxdk/OpenAI-Gym-Taxi-v3.git
-cd OpenAI-Gym-Taxi-v3
-python main.py
+```bash
+$ git clone https://github.com/bmaxdk/OpenAI-Gym-Taxi-v3.git
+$ cd OpenAI-Gym-Taxi-v3
+$ python main.py
 ```
 
 This version uses a variation on standard Q-learning.  The policy is epsilon-greedy, but when the non-greedy action is chosen, instead of being sampled from a uniform distribution, it is sampled from a distribution that reflects two things:
